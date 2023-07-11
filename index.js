@@ -16,7 +16,7 @@ function overwriteBestCustomer() {
 const leastFavoriteCustomer = 'Alice';
 
 function changeLeastFavoriteCustomer() {
-  // Attempting to change a constant will result in an error (TypeError).
+  
   leastFavoriteCustomer = 'Bob';
 }
 n
